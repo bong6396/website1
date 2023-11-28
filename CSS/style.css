@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Inter&family=Roboto&display=swap');
+body {font-family: 'Carrois Gothic', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: grey;
+  margin: 0
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #B35D5E
+}
+.banner {
+  width: 100%;
+  min-height: 500px;
+}
+aside {
+  width: 100%;
+  min-height: 500px;
+}
+main {
+  width: 100%;
+  min-height: 500px;
+
+}
+footer {
+  width: 100%;
+  min-height: 100px;
+  background-color:#EEEEEE
+}
+.logo {
+  padding-top: 8px;
+}
+.menu {
+  padding-top: 6px
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none; padding-top: 20px
+	  
+}
+.menu ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #5C5C5C;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+.menu ul li a:hover {
+  background-color: #F16B6B;
+  color: white
+}
+/*slider*/
+
+#slide1 .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+
+#slide1 .owl-dots .owl-dot span {
+
+      width: 12px;
+
+      height: 12px; 	
+}
+
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+
+#slider .owl-nav [class*='owl-'] {
+
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color:whitesmoke
+
+}
+
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+
+#slider .owl-nav [class*='owl-']:hover {
+
+      background:none;border: none;
+
+      color:pink;
+
+      text-decoration: none; }
+
+.text-den{
+	color:#131212
+}
+.text-do{
+	color:red
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #666666
+}
+aside ul li a{
+	text-decoration: none;padding: 10px;display: block; color:#5E5E5E
+}
+aside ul li a:hover{color: white;background-color:#E36C82}
+.img-100{
+	width: 100%;
+}
+.text-center{
+	text-align: center
+}
+.text-primary{
+	color: darkred
+}
+.text-xam{
+	color:#4E4E4E; 
+}
+.bg-xanh{
+	background-color:#82C4FC; text-align: center;
+}
+footer a{
+	color:#6D6D6D
+}
+footer a:hover{
+	color: #E36C82
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column;
+}
+footer ul li a{
+	text-decoration: none;display: block;padding: 10px
+}
